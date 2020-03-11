@@ -54,8 +54,8 @@ SET(BARLIB bar)
 
 # Define some directories
 SET(SRC ${CMAKE_SOURCE_DIR}/src)
-SET(LIB ${CMAKE_SOURCE_DIR}/lib)
-SET(BIN ${CMAKE_SOURCE_DIR}/bin)
+SET(LIB build/lib)
+SET(BIN build/bin)
 SET(SRCFOO ${SRC}/foo)
 SET(SRCBAR ${SRC}/bar)
 
